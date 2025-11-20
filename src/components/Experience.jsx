@@ -93,7 +93,7 @@ const Experience = () => {
             description: [
                 "Built 'RedactManager', a robust secure document redaction platform.",
                 "Designed a custom Drools system enabling user-defined logic for PDF management.",
-                "Implemented ML research papers for header/footer detection, achieving 98% accuracy."
+                "Implemented research papers for header/footer detection, achieving 98% accuracy."
             ],
             techStack: ["Java 17", "AWS S3", "OCR", "PDFBox", "Keycloak", "Angular"]
         },
