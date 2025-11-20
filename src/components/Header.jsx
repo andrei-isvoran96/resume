@@ -83,7 +83,7 @@ const Header = () => {
                         <SocialLink href="https://www.linkedin.com/in/andrei-isvoran-58152a177/" icon={Linkedin} />
                         <SocialLink href="https://github.com/andrei-isvoran96" icon={Github} />
                         <a
-                            href="/Andrei-Isvoran-CV.pdf"
+                            href="Andrei-Isvoran-CV.pdf"
                             download
                             className="p-4 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-white hover:border-primary-500 hover:shadow-[0_0_20px_rgba(56,189,248,0.3)] transition-all duration-300 group"
                             title="Download CV"
