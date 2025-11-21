@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { MapPin, Phone, Mail, Linkedin, Github, ChevronDown, FileDown } from 'lucide-react';
+import { MapPin, Phone, Mail, Linkedin, Github, ChevronDown } from 'lucide-react';
 import { motion } from 'framer-motion';
 import profileImage from '../assets/profile.jpg';
 
@@ -88,7 +88,7 @@ const Header = () => {
                             className="p-4 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 hover:text-white hover:border-primary-500 hover:shadow-[0_0_20px_rgba(56,189,248,0.3)] transition-all duration-300 group"
                             title="Download CV"
                         >
-                            <FileDown size={24} className="group-hover:scale-110 transition-transform" />
+                            <span className="font-bold text-xl group-hover:scale-110 transition-transform">CV</span>
                         </a>
                     </motion.div>
                 </div>
