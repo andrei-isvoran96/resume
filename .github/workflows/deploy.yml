@@ -28,8 +28,13 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm ci
-      - name: Build
-        run: npm run build
+      # This enables Pages and gives us the base path we need for the Vite build
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v4
+      # See: https://vite.dev/guide/build.html#public-base-path
+      - name: Build with Vite
+        run: npm run build -- --base "${{ steps.pages.outputs.base_path }}"
       - name: Ensure .nojekyll exists
         run: touch dist/.nojekyll
       - name: Upload artifact
