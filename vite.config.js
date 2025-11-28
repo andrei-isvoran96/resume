@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 // Base path will be set dynamically during build via GitHub Actions
 export default defineConfig({
   plugins: [react()],
-  base: process.env.VITE_BASE_PATH || '/',
+  base: "https://andrei-isvoran96.github.io/resume/",
 })
