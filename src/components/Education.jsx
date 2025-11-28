@@ -22,8 +22,8 @@ const Education = () => {
                         <GraduationCap size={32} />
                     </div>
                     <div className="flex-1">
-                        <h3 className="text-2xl font-bold text-white mb-1">Politehnica University</h3>
-                        <h4 className="text-lg text-primary-400 mb-4">Computer Science</h4>
+                        <h3 className="text-2xl font-bold text-white mb-1">Politehnica University of Timisoara</h3>
+                        <h4 className="text-lg text-primary-400 mb-4">BS in Computer Science</h4>
 
                         <div className="flex flex-wrap items-center gap-4 text-sm text-slate-400 mb-6">
                             <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800/50">

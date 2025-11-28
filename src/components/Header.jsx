@@ -80,7 +80,7 @@ const Header = () => {
                         transition={{ delay: 0.9, duration: 0.5 }}
                         className="flex gap-6 relative z-20"
                     >
-                        <SocialLink href="https://www.linkedin.com/in/andrei-isvoran-58152a177/" icon={Linkedin} />
+                        <SocialLink href="https://www.linkedin.com/in/andrei-isvoran" icon={Linkedin} />
                         <SocialLink href="https://github.com/andrei-isvoran96" icon={Github} />
                         <a
                             href="Andrei-Isvoran-CV.pdf"

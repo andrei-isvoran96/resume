@@ -40,7 +40,7 @@ const Skills = () => {
         {
             title: "Frontend",
             icon: Globe,
-            skills: ["React", "TypeScript", "JavaScript", "Tailwind CSS"]
+            skills: ["React", "Tailwind CSS", "JavaScript/TypeScript"]
         },
         {
             title: "DevOps & Cloud",
@@ -61,6 +61,11 @@ const Skills = () => {
             title: "AI & Innovation",
             icon: Brain,
             skills: ["MCP", "Cursor", "Prompt Engineering"]
+        },
+        {
+            title: "Other",
+            icon: Languages,
+            skills: ["OCR", "PDFBox", "PHP", "Groovy", "Python"]
         }
     ];
 

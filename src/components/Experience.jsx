@@ -72,43 +72,44 @@ const ExperienceCard = ({ company, role, period, location, link, description, te
 const Experience = () => {
     const jobs = [
         {
-            company: "EPAM Systems",
-            role: "Senior Fullstack Engineer",
-            period: "Sep 2024 - Present",
+            company: "EPAM / Team.Blue",
+            role: "Senior Fullstack Software Engineer",
+            period: "Sept 2024 - Present",
             location: "Timisoara, Romania",
             link: "https://team.blue/",
             description: [
-                "Modernizing a 20+ year old legacy PHP monolith into a scalable Java microservices architecture with React frontend.",
-                "Architected a Drools-based validation engine for complex multi-brand account management flows.",
-                "Led the integration with eCollect debt collection system, improving revenue recovery."
+                "Contributed to the company-wide migration of a 20+ year monolithic PHP platform into a modular Java microservices architecture, improving maintainability and deployment reliability.",
+                "Led the design and implementation of a Drools-based validation engine supporting multi-brand account creation flows, reducing onboarding inconsistencies.",
+                "Integrated with eCollect to automate debt recovery processes, reducing manual intervention and speeding up unpaid invoice handling."
             ],
-            techStack: ["Java 21", "Spring Boot", "React", "K8s", "PostgreSQL", "RabbitMQ"]
+            techStack: ["Java", "Spring Boot", "React", "Kubernetes", "PostgreSQL", "RabbitMQ"]
         },
         {
-            company: "EPAM Systems",
+            company: "EPAM / Knecon AG",
             role: "Senior Software Engineer",
-            period: "Jul 2023 - Sep 2024",
+            period: "Jul 2023 - Sept 2024",
             location: "Timisoara, Romania",
             link: "https://www.linkedin.com/company/knecon-ag/",
             description: [
-                "Built 'RedactManager', a robust secure document redaction platform.",
-                "Designed a custom Drools system enabling user-defined logic for PDF management.",
-                "Implemented research papers for header/footer detection, achieving 98% accuracy."
+                "Built a redaction management platform (RedactManager) used for secure PDF operations.",
+                "Architected a Drools system enabling dynamic, user-defined rule execution.",
+                "Implemented ML/algorithmic improvements achieving 98% accuracy in header/footer detection on thousands of PDFs.",
+                "Mentored junior developers through code reviews and pair programming."
             ],
-            techStack: ["Java 17", "AWS S3", "OCR", "PDFBox", "Keycloak", "Angular"]
+            techStack: ["Java", "AWS", "OCR", "PDFBox", "Keycloak", "Angular"]
         },
         {
-            company: "EPAM Systems",
+            company: "EPAM / Wayfair",
             role: "Software Engineer",
             period: "Aug 2021 - Jul 2023",
             location: "Timisoara, Romania",
             link: "https://www.wayfair.com/",
             description: [
-                "Developed an internal observability platform for Wayfair providing visibility into 1000+ microservices.",
-                "Aggregated data from Kibana, Datadog, and SonarQube to rank service health and detect faults.",
-                "Created a graph visualization system to map inter-service dependencies."
+                "Designed and delivered an internal visibility platform processing data from 1000+ microservices, improving fault detection speed across teams.",
+                "Unified observability data from Kibana, Datadog, Sonarqube, and GitHub, reducing time-to-diagnose incidents by enabling a single-pane-of-glass view.",
+                "Built a graph-based system mapping interservice dependencies, accelerating root-cause analysis during outages."
             ],
-            techStack: ["Java 17", "GraphQL", "Kafka", "Docker", "Datadog", "PostgreSQL"]
+            techStack: ["Java", "GraphQL", "Kafka", "Docker", "Datadog", "PostgreSQL"]
         },
         {
             company: "Canon",
@@ -117,8 +118,8 @@ const Experience = () => {
             location: "Timisoara, Romania",
             link: "https://cpp.canon/",
             description: [
-                "Contributed to PRISMASync controller, a high-performance printing workflow management software.",
-                "Optimized job scheduling and task management algorithms."
+                "Enhanced PRISMASync, Canon's professional printing workflow solution, improving reliability and user productivity.",
+                "Developed workflow orchestration features including job scheduling, task creation, and automation flows used across enterprise printing environments."
             ],
             techStack: ["C++", "C#", "Python", "Embedded Systems"]
         },
@@ -129,7 +130,8 @@ const Experience = () => {
             location: "Timisoara, Romania",
             link: "https://www.lasting.space/",
             description: [
-                "Developed a comprehensive test automation tool in Java to streamline QA processes."
+                "Built a Java-based automated testing platform that reduced manual QA efforts and improved regression reliability.",
+                "Implemented core test execution and reporting components used across multiple internal projects."
             ],
             techStack: ["Java", "Selenium", "Test Automation"]
         }

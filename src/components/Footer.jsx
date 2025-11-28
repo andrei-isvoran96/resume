@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="container mx-auto px-4 py-12 relative z-10">
                 <div className="flex flex-col items-center">
                     <div className="flex gap-8 mb-8">
-                        <SocialLink href="https://www.linkedin.com/in/andrei-isvoran-58152a177/" icon={Linkedin} />
+                        <SocialLink href="https://www.linkedin.com/in/andrei-isvoran" icon={Linkedin} />
                         <SocialLink href="https://github.com/andrei-isvoran96" icon={Github} />
                         <SocialLink href="mailto:isvoranandrei96@gmail.com" icon={Mail} />
                     </div>
